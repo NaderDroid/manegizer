@@ -10,9 +10,9 @@ class Nav extends Component {
                 </Link>
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="/db">
+                        <Link to="/db" className="nav-link">
                             Project List
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
