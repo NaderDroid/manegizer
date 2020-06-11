@@ -10,6 +10,7 @@ import UpdateProject from "./components/UpdateProject";
 import DashBoard from "./components/DashBoard";
 import ProjectBoard from "./components/ProjectBoard";
 import UpdateTask from "./components/UpdateTask";
+import Landing from "./components/Landing";
 
 class App extends Component {
     render() {
