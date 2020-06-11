@@ -18,6 +18,7 @@ class App extends Component {
                 <BrowserRouter>
                     <div>
                         <Nav />
+                        <Route exact path="/" component={Landing} />
                         <Route exact path="/db" component={DashBoard} />
                         <Route exact path="/addProject" component={AddProject} />
                         <Route exact path="/updateProject/:id" component={UpdateProject} />
