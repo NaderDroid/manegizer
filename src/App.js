@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Nav from "./components/Nav";
 import AddTask from "./components/AddTask";
-import {BrowserRouter, Route} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import AddProject from "./components/AddProject";
 import {Provider} from 'react-redux'
 import store from "./store";
@@ -16,7 +16,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <BrowserRouter>
+                <HashRouter>
                     <div>
                         <Nav />
                         <Route exact path="/" component={Landing} />
@@ -35,7 +35,7 @@ class App extends Component {
                             component={UpdateTask}
                         />
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             </Provider>
         );
     }
