@@ -2,6 +2,10 @@ img {
     width: 100%;
 }
 
+body {
+    background-color: #f1f0f0;
+    font-family:  monospace;
+}
 .fa.fa-edit {
     color: #18a2b9;
 }
